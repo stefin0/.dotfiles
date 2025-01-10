@@ -1,0 +1,7 @@
+theme = Kanagawa Dragon
+
+font-family = Noto Sans Mono
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
