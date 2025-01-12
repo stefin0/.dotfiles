@@ -3,19 +3,14 @@
         "hyprland/workspaces",
     ],
     "modules-right": [
-        "bluetooth",
         "battery",
         "pulseaudio",
         "tray",
         "clock",
     ],
-    "bluetooth": {
-        "format": "",
-        "on-click": "blueman-manager",
-    },
     "battery": {
         "bat": "BAT1",
-        "format": "{icon} {capacity}%",
+        "format": "{icon}    {capacity}%",
         "format-icons": ["󰂄", "", "", "", "", ""],
     },
     "pulseaudio": {
