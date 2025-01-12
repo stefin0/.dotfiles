@@ -5,3 +5,5 @@ font-family = Noto Sans Mono
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
+
+window-decoration = false

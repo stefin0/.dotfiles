@@ -1,0 +1,40 @@
+{
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+    "modules-right": [
+        "bluetooth",
+        "battery",
+        "pulseaudio",
+        "tray",
+        "clock",
+    ],
+    "bluetooth": {
+        "format": "",
+        "on-click": "blueman-manager",
+    },
+    "battery": {
+        "bat": "BAT1",
+        "format": "{icon} {capacity}%",
+        "format-icons": ["󰂄", "", "", "", "", ""],
+    },
+    "pulseaudio": {
+        "format": "{icon}    {volume}%",
+        "format-icons": {
+          "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+    },
+    "tray": {
+        "spacing": 10,
+    },
+    "clock": {
+        "format": "{:%D %I:%M %p}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "calendar": {
+            "format": {
+                "today": "<b><u>{}</u></b>",
+            },
+        },
+    },
+}
