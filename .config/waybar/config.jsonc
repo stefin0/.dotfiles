@@ -10,13 +10,18 @@
     ],
     "battery": {
         "bat": "BAT1",
-        "format": "{icon}    {capacity}%",
-        "format-icons": ["󰂄", "", "", "", "", ""],
+        "format": "{capacity}% {icon} ",
+        "format-charging": "{capacity}% {icon} ",
+        "format-icons": {
+            "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+            "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+        },
     },
     "pulseaudio": {
-        "format": "{icon}    {volume}%",
+        "format": "{volume}% {icon} ",
+        "format-muted": "{volume}% 󰸈 ",
         "format-icons": {
-          "default": ["", "", ""]
+          "default": ["󰕿", "󰖀", "󰕾"],
         },
         "on-click": "pavucontrol",
     },
