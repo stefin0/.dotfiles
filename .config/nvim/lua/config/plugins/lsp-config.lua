@@ -17,7 +17,8 @@ return {
       servers = {
         lua_ls = {},
         clangd = { cmd = { "clangd", "--fallback-style=webkit" } },
-        pyright = {}
+        pyright = {},
+        cssls = {},
       }
     },
     config = function(_, opts)
