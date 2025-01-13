@@ -1,24 +1,31 @@
+* {
+    border-radius: 10px;
+}
+
 window#waybar {
     background-color: transparent;
 }
 
 .modules-left,
 .modules-right {
-    margin: 5px 20px 0px 20px;
+    margin: 5px 20px;
 }
 
 #workspaces button.active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(127, 127, 127, 0.5);
 }
 
 #workspaces button:hover {
     border-color: #FFFFFF;
 }
 
-#pulseaudio {
-    padding: 0px 0px 0px 10px;
-}
-
-#tray {
+#battery,
+#pulseaudio,
+#tray,
+#clock {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(127, 127, 127, 0.5);
+    margin-left: 10px;
     padding: 0px 10px;
 }
