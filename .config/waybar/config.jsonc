@@ -29,7 +29,7 @@
         "spacing": 10,
     },
     "clock": {
-        "format": "{:%D %I:%M %p}",
+        "format": "{:%I:%M %p %D}",
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
             "format": {
