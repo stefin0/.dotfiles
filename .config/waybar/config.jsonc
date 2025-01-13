@@ -4,7 +4,6 @@
     ],
     "modules-right": [
         "battery",
-        "pulseaudio",
         "tray",
         "clock",
     ],
@@ -16,14 +15,6 @@
             "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
             "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
         },
-    },
-    "pulseaudio": {
-        "format": "{volume}% {icon}",
-        "format-muted": "{volume}% 󰸈",
-        "format-icons": {
-          "default": ["󰕿", "󰖀", "󰕾"],
-        },
-        "on-click": "pavucontrol",
     },
     "tray": {
         "spacing": 10,
