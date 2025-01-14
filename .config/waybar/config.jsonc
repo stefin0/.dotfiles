@@ -10,16 +10,16 @@
     ],
     "battery": {
         "bat": "BAT1",
-        "format": "{icon} {capacity}%",
-        "format-charging": "{icon} {capacity}%",
+        "format": "{icon}  {capacity}%",
+        "format-charging": "{icon}  {capacity}%",
         "format-icons": {
             "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
             "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
         },
     },
     "wireplumber": {
-        "format": "{icon} {volume}%",
-        "format-muted": "󰝟 {volume}%",
+        "format": "{icon}  {volume}%",
+        "format-muted": "󰝟  {volume}%",
         "format-icons": ["󰕿", "󰖀", "󰕾"],
         "on-click": "pwvucontrol",
     },
