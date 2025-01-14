@@ -15,3 +15,7 @@ lua-language-server neovim networkmanager network-manager-applet pipewire pyrigh
 qt5-wayland qt6-wayland stow vscode-css-languageserver waybar wireplumber \
 wl-clipboard wofi
 ```
+Enable services
+```
+systemctl --user enable --now hyprpaper.service hyprpolkitagent.service waybar.service \
+```
