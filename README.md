@@ -17,5 +17,5 @@ wl-clipboard wofi
 ```
 Enable services
 ```
-systemctl --user enable --now hyprpaper.service hyprpolkitagent.service waybar.service \
+systemctl --user enable --now hyprpaper.service hyprpolkitagent.service waybar.service
 ```
