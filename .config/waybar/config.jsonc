@@ -4,6 +4,7 @@
     ],
     "modules-right": [
         "battery",
+        "wireplumber",
         "tray",
         "clock",
     ],
@@ -15,6 +16,12 @@
             "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
             "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
         },
+    },
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "󰝟",
+        "format-icons": ["󰕿", "󰖀", "󰕾"],
+        "on-click": "pwvucontrol",
     },
     "tray": {
         "spacing": 10,

@@ -21,6 +21,7 @@ window#waybar {
 }
 
 #battery,
+#wireplumber,
 #tray,
 #clock {
     background-color: rgba(0, 0, 0, 0.5);
