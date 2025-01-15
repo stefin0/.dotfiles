@@ -24,3 +24,7 @@ Enable system services
 ```
 systemctl enable --now bluetooth.service NetworkManager.service
 ```
+Stow everything
+```
+stow --adopt .
+```
