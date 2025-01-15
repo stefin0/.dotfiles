@@ -5,8 +5,8 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 Install [uwsm](https://aur.archlinux.org/packages/uwsm), [Hyprland](https://wiki.hyprland.org/Getting-Started/Installation/), and other useful AUR packages
 ```
-yay -S google-chrome hyprland-git hyprpaper-git pwvucontrol uwsm xdg-desktop-portal-gtk-git \
-xdg-desktop-portal-hyprland-git
+yay -S google-chrome hypridle-git hyprland-git hyprlock-git hyprpaper-git pwvucontrol uwsm \
+xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 ```
 Install everything else
 ```
@@ -17,7 +17,8 @@ wl-clipboard wofi
 ```
 Enable user services
 ```
-systemctl --user enable --now hyprpaper.service hyprpolkitagent.service waybar.service
+systemctl --user enable --now hypridle.service hyprpaper.service hyprpolkitagent.service \
+waybar.service
 ```
 Enable system services
 ```
