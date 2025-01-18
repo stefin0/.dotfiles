@@ -5,7 +5,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 Install [Hyprland](https://wiki.hyprland.org/Getting-Started/Installation/) and a browser
 ```
-yay -S hyprland-git google-chrome
+yay -S google-chrome hyprland-git
 ```
 Install [Kitty](https://archlinux.org/packages/extra/x86_64/kitty/)
 ```
@@ -38,7 +38,7 @@ systemctl enable --now bluetooth.service NetworkManager.service
 ```
 Stow everything
 ```
-stow --adopt .
+cd ~/.dotfiles/ && stow --adopt .
 ```
 Restore `.dotfiles/` directory
 ```
