@@ -23,9 +23,9 @@ pwvucontrol uwsm xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 Install everything else
 ```
 sudo pacman -S blueman bluez bluez-utils brightnessctl clang discord dolphin dunst fastfetch \
-ghostty lua-language-server neovim networkmanager network-manager-applet noto-fonts nwg-look \
-pipewire pipewire-pulse pyright qt5-wayland qt6-wayland stow ttf-noto-nerd vscode-css-languageserver \
-waybar wireplumber wl-clipboard wofi
+ghostty lua-language-server neovim networkmanager network-manager-applet noto-fonts \
+noto-fonts-emoji nwg-look pipewire pipewire-pulse pyright qt5-wayland qt6-wayland stow \
+ttf-noto-nerd vscode-css-languageserver waybar wireplumber wl-clipboard wofi
 ```
 Enable user services
 ```
