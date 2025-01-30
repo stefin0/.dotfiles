@@ -15,10 +15,11 @@ return {
     },
     opts = {
       servers = {
-        lua_ls = {},
         clangd = { cmd = { "clangd", "--fallback-style=webkit" } },
-        pyright = {},
         cssls = {},
+        jdtls = {},
+        lua_ls = {},
+        pyright = {},
       }
     },
     config = function(_, opts)
