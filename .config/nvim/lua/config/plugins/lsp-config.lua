@@ -17,6 +17,7 @@ return {
       servers = {
         clangd = { cmd = { "clangd", "--fallback-style=webkit" } },
         cssls = {},
+        html = {},
         jdtls = {},
         lua_ls = {},
         pyright = {},

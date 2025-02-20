@@ -1,15 +1,15 @@
 {
-  "blink.cmp": { "branch": "main", "commit": "b6f11a0aa33e601c469a126e3ed6e35208fe3ea3" },
+  "blink.cmp": { "branch": "main", "commit": "18b352d12b35bca148427b607098df14b75a218f" },
   "friendly-snippets": { "branch": "main", "commit": "efff286dd74c22f731cdec26a70b46e5b203c619" },
-  "hardtime.nvim": { "branch": "main", "commit": "198a5aae186e866eff0826ef1706c229f856f11c" },
-  "kanagawa.nvim": { "branch": "master", "commit": "988082eb00b845e4afbcaa4fd8e903da8a3ab3b9" },
-  "lazy.nvim": { "branch": "main", "commit": "7527af40ddd4a93a02911be570b32609b9d4ea53" },
+  "hardtime.nvim": { "branch": "main", "commit": "c6a8ff9fe8fb231ba12eca7ed88b8daaf0ba5420" },
+  "kanagawa.nvim": { "branch": "master", "commit": "2de175482f215c69a1d12ab10a8bf2a7a2e44ff2" },
+  "lazy.nvim": { "branch": "main", "commit": "e5e9bf48211a13d9ee6c1077c88327c49c1ab4a0" },
   "lazydev.nvim": { "branch": "main", "commit": "a1b78b2ac6f978c72e76ea90ae92a94edf380cfc" },
   "nui.nvim": { "branch": "main", "commit": "53e907ffe5eedebdca1cd503b00aa8692068ca46" },
-  "nvim-lspconfig": { "branch": "master", "commit": "8c5620b04121864a1b5af134d4c2c23cee68b6ef" },
-  "nvim-treesitter": { "branch": "master", "commit": "110bdf91e3fcbc019efbac13026ae4ad9e4ededf" },
-  "plenary.nvim": { "branch": "master", "commit": "3707cdb1e43f5cea73afb6037e6494e7ce847a66" },
+  "nvim-lspconfig": { "branch": "master", "commit": "1110787f1b464888c59a044c48c5119d14078044" },
+  "nvim-treesitter": { "branch": "master", "commit": "cb8e810a1ea3f562e95a259df3065c7c23decf7a" },
+  "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
   "ripgrep": { "branch": "master", "commit": "e2362d4d5185d02fa857bf381e7bd52e66fafc73" },
-  "telescope-fzf-native.nvim": { "branch": "main", "commit": "dae2eac9d91464448b584c7949a31df8faefec56" },
+  "telescope-fzf-native.nvim": { "branch": "main", "commit": "2a5ceff981501cff8f46871d5402cd3378a8ab6a" },
   "telescope.nvim": { "branch": "0.1.x", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" }
 }

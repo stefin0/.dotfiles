@@ -23,7 +23,7 @@ sudo pacman -S --needed blueman bluez bluez-utils brightnessctl clang discord do
 dunst fastfetch ghostty gimp grim lua-language-server neovim networkmanager \
 network-manager-applet noto-fonts noto-fonts-emoji nwg-look pipewire pipewire-pulse \
 pyright qt5-wayland qt6-wayland slurp stow ttf-noto-nerd vscode-css-languageserver \
-waybar wireplumber wl-clipboard wofi
+vscode-html-languageserver waybar wireplumber wl-clipboard wofi
 ```
 Enable user services
 ```
