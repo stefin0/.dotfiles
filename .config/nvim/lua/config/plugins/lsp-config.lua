@@ -19,8 +19,10 @@ return {
         cssls = {},
         html = {},
         jdtls = {},
+        jsonls = {},
         lua_ls = {},
         pyright = {},
+        ts_ls = {},
       }
     },
     config = function(_, opts)
