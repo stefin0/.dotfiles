@@ -14,13 +14,13 @@ Hyprland
 ```
 Install [uwsm](https://aur.archlinux.org/packages/uwsm) and other useful AUR packages
 ```
-yay -S hypridle-git hyprlock-git hyprpaper-git hyprpolkitagent-git \
+yay -S anki hypridle-git hyprlock-git hyprpaper-git hyprpolkitagent-git \
 pwvucontrol uwsm xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 ```
 Install everything else
 ```
 sudo pacman -S --needed blueman bluez bluez-utils brightnessctl clang discord dolphin \
-dunst fastfetch ghostty gimp grim lua-language-server neovim networkmanager \
+dunst fastfetch ghostty gimp grim lua-language-server mpv neovim networkmanager \
 network-manager-applet noto-fonts noto-fonts-emoji nwg-look pipewire pipewire-pulse \
 pyright qt5-wayland qt6-wayland slurp stow ttf-noto-nerd typescript-language-server \
 vscode-css-languageserver vscode-html-languageserver vscode-json-languageserver \
