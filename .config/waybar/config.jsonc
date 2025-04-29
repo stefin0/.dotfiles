@@ -1,38 +1,70 @@
 {
     "modules-left": [
-        "hyprland/workspaces",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
     ],
     "modules-right": [
         "battery",
         "wireplumber",
         "tray",
-        "clock",
+        "clock"
     ],
+    "hyprland/window": {
+        "max-length": 30
+    },
     "battery": {
         "bat": "BAT1",
         "format": "{icon}  {capacity}%",
         "format-charging": "{icon}  {capacity}%",
         "format-icons": {
-            "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-            "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
-        },
+            "default": [
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+            ],
+            "charging": [
+                "󰢜",
+                "󰂆",
+                "󰂇",
+                "󰂈",
+                "󰢝",
+                "󰂉",
+                "󰢞",
+                "󰂊",
+                "󰂋",
+                "󰂅"
+            ]
+        }
     },
     "wireplumber": {
         "format": "{icon}  {volume}%",
         "format-muted": "󰝟  {volume}%",
-        "format-icons": ["󰕿", "󰖀", "󰕾"],
-        "on-click": "pwvucontrol",
+        "format-icons": [
+            "󰕿",
+            "󰖀",
+            "󰕾"
+        ],
+        "on-click": "pwvucontrol"
     },
     "tray": {
-        "spacing": 10,
+        "spacing": 10
     },
     "clock": {
         "format": "{:%I:%M %p %D}",
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
             "format": {
-                "today": "<b><u>{}</u></b>",
-            },
-        },
-    },
+                "today": "<b><u>{}</u></b>"
+            }
+        }
+    }
 }
