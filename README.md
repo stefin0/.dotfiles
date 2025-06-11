@@ -6,7 +6,7 @@ https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 Install [Hyprland](https://wiki.hyprland.org/Getting-Started/Installation/) and a browser
 ```
-yay -S google-chrome hyprland-git
+yay -S firefox hyprland-git
 ```
 Start Hyprland (from the tty)
 ```
@@ -19,12 +19,10 @@ pwvucontrol uwsm xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 ```
 Install everything else
 ```
-sudo pacman -S --needed blueman bluez bluez-utils brightnessctl clang discord dolphin \
-dunst fastfetch ghostty gimp grim lua-language-server mpv neovim networkmanager \
-network-manager-applet noto-fonts noto-fonts-emoji nwg-look pipewire pipewire-pulse \
-pyright qt5-wayland qt6-wayland slurp stow ttf-noto-nerd typescript-language-server \
-vscode-css-languageserver vscode-html-languageserver vscode-json-languageserver \
-waybar wireplumber wl-clipboard wofi
+sudo pacman -S --needed blueman bluez bluez-utils brightnessctl discord dolphin \
+dunst fastfetch ghostty gimp grim mpv neovim networkmanager network-manager-applet \
+noto-fonts noto-fonts-emoji nwg-look pipewire pipewire-pulse qt5-wayland \
+qt6-wayland slurp stow ttf-noto-nerd waybar wireplumber wl-clipboard wofi
 ```
 Enable user services
 ```
