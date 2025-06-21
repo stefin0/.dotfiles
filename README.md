@@ -20,7 +20,7 @@ pwvucontrol uwsm xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 Install everything else
 ```
 sudo pacman -S --needed blueman bluez bluez-utils brightnessctl discord dolphin \
-dunst fastfetch fd ghostty gimp grim luarocks mpv neovim networkmanager \
+dunst fastfetch fd ghostty gimp grim jq luarocks mpv neovim networkmanager \
 network-manager-applet noto-fonts noto-fonts-emoji npm nwg-look pipewire pipewire-pulse \
 qt5-wayland qt6-wayland slurp stow tree-sitter ttf-noto-nerd waybar wireplumber \
 wl-clipboard wofi
