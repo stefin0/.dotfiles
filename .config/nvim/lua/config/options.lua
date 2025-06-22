@@ -9,3 +9,6 @@ vim.opt.relativenumber = true
 vim.opt.wrap = false
 
 vim.opt.colorcolumn = "80"
+
+vim.wo.foldmethod = "expr"
+vim.wo.foldexpr = "v:lua.vim.treesitter.foldexpr()"
