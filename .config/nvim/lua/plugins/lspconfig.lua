@@ -81,6 +81,7 @@ return {
 		vim.list_extend(ensure_installed, {
 			"black",
 			"clang-format",
+			"isort",
 			"prettierd",
 			"stylua",
 		})

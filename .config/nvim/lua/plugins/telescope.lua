@@ -14,7 +14,7 @@ return {
 		{ "nvim-tree/nvim-web-devicons", enabled = vim.g.have_nerd_font },
 	},
 	config = function()
-		require("telescope").setup({ extensions = { fzf = {} } })
+		require("telescope").setup({ pickers = { find_files = { hidden = true } }, extensions = { fzf = {} } })
 		require("telescope").load_extension("fzf")
 	end,
 	keys = {

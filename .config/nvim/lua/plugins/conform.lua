@@ -6,7 +6,7 @@ return {
 			html = { "prettierd" },
 			javascript = { "prettierd" },
 			lua = { "stylua" },
-			python = { "black" },
+			python = { "isort", "black" },
 			typescript = { "prettierd" },
 		},
 		format_on_save = {},
