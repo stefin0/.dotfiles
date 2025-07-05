@@ -74,6 +74,7 @@ return {
 			jsonls = {},
 			lua_ls = {},
 			pyright = {},
+			tailwindcss = {},
 			ts_ls = {},
 		}
 
@@ -82,6 +83,7 @@ return {
 			"black",
 			"clang-format",
 			"isort",
+			"prettier",
 			"prettierd",
 			"stylua",
 		})
