@@ -1,4 +1,4 @@
-# dotfiles
+# .dotfiles
 Install [yay](https://github.com/Jguer/yay?tab=readme-ov-file#installation) and [Kitty](https://archlinux.org/packages/extra/x86_64/kitty/)
 ```
 sudo pacman -S --needed git base-devel kitty && git clone \
@@ -19,11 +19,11 @@ pwvucontrol uwsm xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 ```
 Install everything else
 ```
-sudo pacman -S --needed blueman bluez bluez-utils brightnessctl discord dolphin \
-dunst fastfetch fd ghostty gimp grim jq ksnip luarocks mpv neovim networkmanager \
-network-manager-applet noto-fonts noto-fonts-emoji npm nwg-look pipewire pipewire-pulse \
-qt5ct qt5-wayland qt6ct qt6-wayland slurp stow tree-sitter ttf-noto-nerd waybar wireplumber \
-wl-clipboard wofi
+sudo pacman -S --needed blueman bluez bluez-utils brightnessctl discord dunst fastfetch \
+fd ghostty gimp grim jq ksnip luarocks mpv neovim networkmanager network-manager-applet \
+nextcloud-client noto-fonts noto-fonts-emoji npm nwg-look pandoc-cli pipewire \
+pipewire-pulse python-weasyprint qt5ct qt5-wayland qt6ct qt6-wayland slurp stow \
+tree-sitter ttf-noto-nerd waybar wireplumber wl-clipboard wofi
 ```
 Enable user services
 ```
