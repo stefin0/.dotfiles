@@ -74,6 +74,7 @@ return {
 			jsonls = {},
 			lua_ls = {},
 			pyright = {},
+			sqlls = {},
 			tailwindcss = {},
 			ts_ls = {},
 		}
@@ -85,6 +86,7 @@ return {
 			"isort",
 			"prettier",
 			"prettierd",
+			"sql-formatter",
 			"stylua",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })

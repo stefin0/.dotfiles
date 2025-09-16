@@ -8,6 +8,7 @@ return {
 			json = { "prettier" },
 			lua = { "stylua" },
 			python = { "isort", "black" },
+			sql = { "sql_formatter" },
 			typescript = { "prettierd" },
 			typescriptreact = { "prettier" },
 		},
