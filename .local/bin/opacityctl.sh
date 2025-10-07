@@ -5,8 +5,16 @@ CURRENT_OPACITY=$(hyprctl getoption decoration:active_opacity | awk '/int|float/
 
 if [ "$CURRENT_OPACITY" = "1.000000" ]; then
     # If value is "1.000000", windows are opaque. Make them transparent.
-    hyprctl --batch "keyword decoration:active_opacity 0.9; keyword decoration:inactive_opacity 0.6"
+    hyprctl --batch "keyword decoration:active_opacity 0.9; \
+                     keyword decoration:inactive_opacity 0.6; \
+                     keyword decoration:blur:enabled true; \
+                     keyword decoration:shadow:enabled true; \
+                     keyword misc:vfr false"
 else
     # For any other value (e.g., "0.900000" or empty), make windows opaque.
-    hyprctl --batch "keyword decoration:active_opacity 1.0; keyword decoration:inactive_opacity 1.0"
+    hyprctl --batch "keyword decoration:active_opacity 1.0; \
+                     keyword decoration:inactive_opacity 1.0; \
+                     keyword decoration:blur:enabled false; \
+                     keyword decoration:shadow:enabled false; \
+                     keyword misc:vfr true"
 fi
