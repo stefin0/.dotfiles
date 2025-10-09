@@ -16,3 +16,8 @@ PS1='\w$(__git_ps1 " (%s)") $ '
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Unzips a file into a directory named after the file
+unzip-to-folder() {
+  unzip "$1" -d "${1%.zip}"
+}
