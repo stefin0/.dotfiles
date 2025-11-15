@@ -27,9 +27,9 @@ xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 sudo pacman -S --needed blueman bluez-utils brightnessctl cups discord docker docker-buildx \
 docker-compose dunst fastfetch fd ghostty gimp grim hplip hunspell hunspell-en_us jq ksnip \
 libreoffice-fresh luarocks mpv neovim networkmanager network-manager-applet nextcloud-client \
-noto-fonts noto-fonts-emoji npm nwg-look pandoc-cli pipewire pipewire-pulse python-weasyprint \
-qt5ct qt5-wayland qt6ct qt6-wayland slurp stow system-config-printer ttf-noto-nerd waybar \
-wireplumber wl-clipboard wofi
+noto-fonts noto-fonts-cjk noto-fonts-emoji npm nwg-look pandoc-cli pipewire pipewire-pulse \
+python-weasyprint qt5ct qt5-wayland qt6ct qt6-wayland slurp stow system-config-printer \
+ttf-noto-nerd waybar wireplumber wl-clipboard wofi
 ```
 
 6. Enable user services
