@@ -67,6 +67,8 @@ return {
 		local capabilities = require("blink.cmp").get_lsp_capabilities()
 
 		local servers = {
+			ansiblels = {},
+			bashls = {},
 			clangd = {},
 			cssls = {},
 			html = {},
@@ -76,18 +78,25 @@ return {
 			pyright = {},
 			sqlls = {},
 			tailwindcss = {},
+			terraformls = {},
 			ts_ls = {},
+			yamlls = {},
 		}
 
 		local ensure_installed = vim.tbl_keys(servers or {})
 		vim.list_extend(ensure_installed, {
+			"ansible-lint",
 			"black",
 			"clang-format",
 			"isort",
 			"prettier",
 			"prettierd",
+			"shellcheck",
+			"shellharden",
+			"shfmt",
 			"sql-formatter",
 			"stylua",
+			"terraform",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
