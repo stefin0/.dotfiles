@@ -21,7 +21,7 @@ return {
 		{
 			"<leader>ff",
 			function()
-				require("telescope.builtin").find_files()
+				require("telescope.builtin").find_files({ no_ignore = true })
 			end,
 			desc = "Telescope find files",
 		},

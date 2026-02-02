@@ -28,8 +28,8 @@ sudo pacman -S --needed blueman bluez-utils brightnessctl cups discord docker do
 docker-compose dunst fastfetch fd ghostty gimp grim hplip hunspell hunspell-en_us jq ksnip \
 libreoffice-fresh luarocks mpv neovim networkmanager network-manager-applet nextcloud-client \
 noto-fonts noto-fonts-cjk noto-fonts-emoji npm nwg-look pandoc-cli pipewire pipewire-pulse \
-python-weasyprint qbittorrent qt5ct qt5-wayland qt6ct qt6-wayland ripgrep slurp stow \
-system-config-printer ttf-noto-nerd waybar wireplumber wl-clipboard wofi
+python-weasyprint qalculate-qt qbittorrent qt5ct qt5-wayland qt6ct qt6-wayland ripgrep slurp \
+stow system-config-printer ttf-noto-nerd waybar wireplumber wl-clipboard wofi
 ```
 
 6. Enable user services

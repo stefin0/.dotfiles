@@ -5,5 +5,9 @@ return {
 	dependencies = {
 		"nvim-tree/nvim-web-devicons",
 	},
-	opts = {},
+	opts = {
+		git = {
+			ignore = false,
+		},
+	},
 }
