@@ -7,6 +7,7 @@ return {
 			hcl = { "terraform_fmt" },
 			html = { "prettierd" },
 			javascript = { "prettierd" },
+			jinja = { "djlint" },
 			json = { "prettier" },
 			lua = { "stylua" },
 			python = { "isort", "black" },

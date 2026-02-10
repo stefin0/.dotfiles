@@ -1,14 +1,14 @@
 # .dotfiles
 
-1. Install [yay](https://github.com/Jguer/yay?tab=readme-ov-file#installation) and [Kitty](https://archlinux.org/packages/extra/x86_64/kitty/)
+1. Install [paru](https://github.com/Morganamilo/paru) and [Kitty](https://archlinux.org/packages/extra/x86_64/kitty/)
 ```sh
 sudo pacman -S --needed git base-devel kitty && git clone \
-https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+https://aur.archlinux.org/paru.git && cd paru && makepkg -si
 ```
 
 2. Install [Hyprland](https://wiki.hyprland.org/Getting-Started/Installation/) and a browser
 ```sh
-yay -S firefox hyprland-git
+paru -S firefox hyprland-git
 ```
 
 3. Start Hyprland (from the tty)
@@ -18,7 +18,7 @@ Hyprland
 
 4. Install [uwsm](https://aur.archlinux.org/packages/uwsm) and other useful AUR packages
 ```sh
-yay -S anki hypridle-git hyprlock-git hyprpaper-git hyprpolkitagent-git pwvucontrol uwsm \
+paru -S anki hypridle-git hyprlock-git hyprpaper-git hyprpolkitagent-git pwvucontrol uwsm \
 xdg-desktop-portal-gtk-git xdg-desktop-portal-hyprland-git
 ```
 

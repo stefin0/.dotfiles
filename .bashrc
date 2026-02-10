@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+export EDITOR=nvim
+
 if [ -f /usr/share/git/git-prompt.sh ]; then
   source /usr/share/git/git-prompt.sh
 fi
